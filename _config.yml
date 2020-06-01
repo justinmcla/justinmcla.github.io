@@ -1,11 +1,11 @@
 # Site settings
 author: Justin McLawhorn
-title: 
+title: A Streetcode Named Undefined
 header-img: img/home-bg.png
 email: jwmclawhorn@gmail.com
 copyright_name: Justin McLawhorn
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A Creative's Coding Journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  justinmcla

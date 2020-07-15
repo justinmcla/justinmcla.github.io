@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Project - prls"
-date:       2020-07-15 22:29:15 +0000
+date:       2020-07-15 18:29:16 -0400
 permalink:  cli_project_-_prls
 ---
 
@@ -30,12 +30,14 @@ From there, I set up my environment file to require my gem and file dependencies
 
 ```
 class PRLS::CLI
-     def call
-		      header
-					menu
-		 end
-		 
-#...more methods
+    def call
+        header
+        menu
+    end
+		
+		#more methods
+		
+end	
 ```
 
 I knew I would want to eventually create play objects of various rights management classes that inherit from a generic rights management "super" class. This would help share responsibilities among the various objects and classes to ensure no one class is doing too much work.

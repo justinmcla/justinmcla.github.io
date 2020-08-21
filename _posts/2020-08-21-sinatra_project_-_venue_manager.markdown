@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Project - Venue Manager"
-date:       2020-08-21 17:10:47 +0000
+date:       2020-08-21 13:10:48 -0400
 permalink:  sinatra_project_-_venue_manager
 ---
 

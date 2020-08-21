@@ -109,7 +109,7 @@ At this point, I had a usable app on my workstation... at home. While I'm workin
 
 Heroku is a fantastic service that hosts apps on their servers, with Github integration! Every push to the master branch can automatically deploy the latest version of your app. I started the connection, but oh, wait...
 
-Build errors. Heroku doesn't support sqlite3. No worries, however. My cohort lead helped explain how to set up my app to use Postgresql, and the connection with Heroku from that point could not have been easier. The app is live on [https://venuemanger.herokuapp.com](https://venuemanager.herokuapp.com)!
+Build errors. Heroku doesn't support sqlite3. No worries, however. My cohort lead helped explain how to set up my app to use Postgresql, and the connection with Heroku from that point could not have been easier. The app is live on [https://venuemanager.herokuapp.com](https://venuemanager.herokuapp.com)!
 
 Now came styling. I originally used a basic css file that I incorporated using layout and yield, but it did not offer the responsive I wanted (specifically, a collapsible nav), which would require Javascript. For this reason, I incorporated Bootstrap with an override css file to change a few things up. And now, my app looks nice and clean, regardless of what device you are viewing it on.
 

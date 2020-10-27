@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project - VenueMC"
-date:       2020-10-27 17:39:54 +0000
+date:       2020-10-27 13:39:55 -0400
 permalink:  rails_project_-_venuemc
 ---
 
@@ -91,21 +91,21 @@ ActionMailer allows you to send emails using a variety of methods that you can c
     authentication: :login,
     enable_starttls_auto: true
   }
-	```
+```
 	
 	You'll want to set your asset host and default url options to match whatever server is hosting your app. Then you can generate a mailer controller with any email templates you know you'll want.
 	
-	```
+```
 	rails g mailer User welcome_letter
-	```
+```
 	
 	This will automatically set up your mailer controllers to correctly inherit, as well as create the welcome_letter option in the UserMailer. It will also automatically create `html` and `txt` versions for each action you specified. This is great because the mailer will bundle both so that the correct version is sent to the receiver depending on the receiver's preferences.
 	
-	I call my mailer after a user successfully signs up.
+I call my mailer after a user successfully signs up.
 	
-	```
+```
  UserMailer.with(user: @user).welcome_letter.deliver_now
- ```
+```
  
  `.with` allows us to send data to the welcome_letter action to be referenced in the letter itself. `.deliver_now` tells Rails to deliver the email immediately, but you can also set up with `deliver_later` to hand it off to a background job to not hold up the user.
  
